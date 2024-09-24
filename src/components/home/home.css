@@ -1,0 +1,52 @@
+.home_cont{
+    height: 740px;
+    width: 100%;
+    margin-top: auto;
+    background-color: #3c398e;
+}
+
+.man_img{
+    border-radius: 30px;
+    max-width: 400px;
+}
+
+
+.man_name{
+    font-family: "Luckiest Guy", cursive;
+}
+
+
+.twitter_icon svg path{
+    stroke: white;
+}
+
+
+@media (max-width: 545px){
+    .home_cont{
+        margin-top: 20px;
+    }
+    
+    .man_img{
+        max-width: 200px;
+    }
+    
+    .man_info{
+        margin-top: -209px;
+    }
+}
+
+@media (min-width: 545px) and (max-width: 1024px){
+    .home_cont{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+    
+    .man_img{
+        max-width: 200px;
+        margin-top: -35px;
+    }
+    
+    .man_info{
+        margin-top: -125px;
+    }
+}
